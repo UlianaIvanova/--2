@@ -1,11 +1,5 @@
-const money = 200000;
-const rate = 0.1;
-let result = money;
+const сelsius = 25;
 
-result += result * rate;
-result += result * rate;
+const fahrenheit = сelsius * 9/5 + 32 + 'F';
 
-const diff = result - money;
-
-console.log(money);
-console.log(diff);
+console.log (fahrenheit);
